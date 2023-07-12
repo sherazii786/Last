@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://confessundercover.com/ivihg5fj?key=fdaf3da36e7d99d2704b6b5c835ead1a`
+					`https://sherazii.s1-tastewp.com/`+ encodeURI(path as string)
 				}`,
 			},
 		};
